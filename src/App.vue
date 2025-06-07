@@ -25,6 +25,9 @@ import SoftwareList from './components/SoftwareList.vue';
 import Notification from './components/Notification.vue';
 import axios from 'axios';
 
+axios.defaults.baseURL = 'https://your-backend-domain.com/api'; // 替换为您的后端域名
+
+
 export default {
   name: 'App',
   components: {
